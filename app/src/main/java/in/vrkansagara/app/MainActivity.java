@@ -1,4 +1,4 @@
-package com.example.app;
+package in.vrkansagara.app;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // REMOTE RESOURCE
-         mWebView.loadUrl("https://getlaminas.in");
+         mWebView.loadUrl("https://vrkansagara.in");
          mWebView.setWebViewClient(new MyWebViewClient());
 
         // LOCAL RESOURCE

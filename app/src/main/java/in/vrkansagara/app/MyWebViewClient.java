@@ -1,4 +1,4 @@
-package com.example.app;
+package in.vrkansagara.app;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,7 +10,7 @@ class MyWebViewClient extends WebViewClient {
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
         Uri uri = Uri.parse(url);
-        if (uri.getHost() != null && uri.getHost().contains("getlaminas.in")) {
+        if (uri.getHost() != null && uri.getHost().contains("vrkansagara.in")) {
             return false;
         }
 

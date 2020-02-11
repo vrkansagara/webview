@@ -1,4 +1,4 @@
-package com.example.app;
+package in.vrkansagara.app;
 
 import android.content.Context;
 import android.util.Log;
