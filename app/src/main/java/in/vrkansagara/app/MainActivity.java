@@ -20,6 +20,8 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.setSupportZoom(true);
+        webSettings.setDisplayZoomControls(false);
 
         // REMOTE RESOURCE
          mWebView.loadUrl("https://vrkansagara.in");
